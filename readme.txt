@@ -1,0 +1,1 @@
+build command for linux ::: goos=linux go build -o main

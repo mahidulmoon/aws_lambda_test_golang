@@ -1,13 +1,10 @@
 package main
 
 
-import
-import "fmt"
-
-{
+import (
 	"fmt"
 	"github.com/aws/aws-lambda-go/lambda"
-}
+)
 
 func main(){
 	lambda.Start(Handler)
